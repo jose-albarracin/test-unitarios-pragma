@@ -17,11 +17,11 @@ describe('FirstComponentComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  test('should create', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should add 2 numbers ok', () => {
+  test('should add 2 numbers ok', () => {
     const app = fixture.componentInstance;
 
     const inputNumber1 = fixture.nativeElement.querySelector(
